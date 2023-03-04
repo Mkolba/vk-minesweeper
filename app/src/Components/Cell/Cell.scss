@@ -1,0 +1,78 @@
+.Cell {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  user-select: none;
+
+  &:is(.Cell_closed) {
+    cursor: pointer;
+    background-image: url("../../sprites/cell.png");
+
+    &:is(.active) {
+      background-image: url("../../sprites/cell_0.png");
+    }
+  }
+
+  &:is(.Cell_flag) {
+    background-image: url("../../sprites/cell_flag.png");
+  }
+
+  &:is(.Cell_question) {
+    cursor: pointer;
+    background-image: url("../../sprites/cell_question.png");
+
+    &:is(.active) {
+      background-image: url("../../sprites/cell_question_active.png");
+    }
+  }
+
+  &:is(.Cell_mine) {
+    background-image: url("../../sprites/cell_mine.png");
+  }
+
+  &:is(.Cell_mine_red) {
+    background-image: url("../../sprites/cell_mine_active.png");
+  }
+
+  &:is(.Cell_mine_crossed) {
+    background-image: url("../../sprites/cell_mine_crossed.png");
+  }
+
+  &:is(.Cell_0) {
+    background-image: url("../../sprites/cell_0.png");
+  }
+
+  &:is(.Cell_1) {
+    background-image: url("../../sprites/cell_1.png");
+  }
+
+  &:is(.Cell_2) {
+    background-image: url("../../sprites/cell_2.png");
+  }
+
+  &:is(.Cell_3) {
+    background-image: url("../../sprites/cell_3.png");
+  }
+
+  &:is(.Cell_4) {
+    background-image: url("../../sprites/cell_4.png");
+  }
+
+  &:is(.Cell_5) {
+    background-image: url("../../sprites/cell_5.png");
+  }
+
+  &:is(.Cell_6) {
+    background-image: url("../../sprites/cell_6.png");
+  }
+
+  &:is(.Cell_7) {
+    background-image: url("../../sprites/cell_7.png");
+  }
+
+  &:is(.Cell_8) {
+    background-image: url("../../sprites/cell_8.png");
+  }
+}

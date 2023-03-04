@@ -1,0 +1,25 @@
+.Smile {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+
+  &:is(.Smile_default) {
+    background-image: url("../../sprites/smile_happy.png");
+
+    &:is(.active) {
+      background-image: url("../../sprites/smile_happy_pressed.png");
+    }
+  }
+
+  &:is(.Smile_glasses) {
+    background-image: url("../../sprites/smile_glasses.png");
+  }
+
+  &:is(.Smile_surprised) {
+    background-image: url("../../sprites/smile_surprised.png");
+  }
+
+  &:is(.Smile_dead) {
+    background-image: url("../../sprites/smile_dead.png");
+  }
+}

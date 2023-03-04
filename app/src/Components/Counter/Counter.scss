@@ -1,0 +1,41 @@
+.Counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .Digit {
+    height: 23px;
+    width: 13px;
+
+    &:is(.Digit_0) {
+      background-image: url("../../sprites/timer_0.png");
+    }
+    &:is(.Digit_1) {
+      background-image: url("../../sprites/timer_1.png");
+    }
+    &:is(.Digit_2) {
+      background-image: url("../../sprites/timer_2.png");
+    }
+    &:is(.Digit_3) {
+      background-image: url("../../sprites/timer_3.png");
+    }
+    &:is(.Digit_4) {
+      background-image: url("../../sprites/timer_4.png");
+    }
+    &:is(.Digit_5) {
+      background-image: url("../../sprites/timer_5.png");
+    }
+    &:is(.Digit_6) {
+      background-image: url("../../sprites/timer_6.png");
+    }
+    &:is(.Digit_7) {
+      background-image: url("../../sprites/timer_7.png");
+    }
+    &:is(.Digit_8) {
+      background-image: url("../../sprites/timer_8.png");
+    }
+    &:is(.Digit_9) {
+      background-image: url("../../sprites/timer_9.png");
+    }
+  }
+}
